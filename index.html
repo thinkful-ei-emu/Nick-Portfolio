@@ -12,10 +12,10 @@
     </head>
     <body>
         <nav role="navigation">
-            <span class="nav-span"><a href="/about" class="nav-link">About</a></span>
-            <span class="nav-span"><a href="/skills" class="nav-link">Skills</a></span>
-            <span class="nav-span"><a href="/projects" class="nav-link">Projects</a></span>
-            <span class="nav-span"><a href="/contact" class="nav-link">Contact</a></span>
+            <span class="nav-span"><a href="#about" class="nav-link">About</a></span>
+            <span class="nav-span"><a href="#skills" class="nav-link">Skills</a></span>
+            <span class="nav-span"><a href="#projects" class="nav-link">Projects</a></span>
+            <span class="nav-span"><a href="#contact" class="nav-link">Contact</a></span>
         </nav>
         <main role="main">
             <header role="banner">
@@ -24,7 +24,7 @@
                         You can make anything happen if you’re willing to put in the time and energy."</p>
             </header>
             
-            <section class="lavender">
+            <section id="about" class="lavender">
                 <h1>About</h1>
                 <article>
                     I started my working life working in food service and screen-printing. Working in 
@@ -39,25 +39,42 @@
                     my free time practicing. I look forward to talking about coding and music with you!
                 </article>
             </section>
-            <section>
+            <section id="skills">
                 <h1>Skills</h1>
                 <article>
                    HTML5, CSS, JavaScript, jQuery.
                  </article>
             </section>
-            <section class="lavender">
+            <section id="projects" class="lavender">
                 <h1>Projects</h1>
-                <h2 class="project-title">Quiz App</h2>
+                <h2 class="project-title">Bookmarks App</h2>
                 <div class="project-pic"></div>
                 <article class="project-article">
-                    The Quiz App utilizes a quiz api to get 5 random questions. It then uses a class 
-                    based structure to render each portion of the quiz. It keeps track of users high score 
-                    and gives them a new set of random questions each time they start so they won't get bored!
+                    This app allows users to save their favorite websites in one convenient, easy to use application. 
+                    The Bookmarks app lets users save their bookmark using a title, description, rating and link. This
+                    application utilizes an api to store and retrieve user data. Users will also enjoy the ability to 
+                    filter their data by rating, delete unwanted bookmarks and toggle a condensed or expanded view of 
+                    their bookmarks.
+                    <p>Tech Used: HTML5, CSS, JavaScript, jQuery.</p>
+                    <a href="https://thinkful-ei-emu.github.io/Nicholas-bookmarks-app/" target="_blank" class="project-link">See it here!</a>
+                    <br>
+                    <br>
+                    <a href="https://github.com/thinkful-ei-emu/Nicholas-bookmarks-app" target="_blank" class="project-link">Github Repo</a>
                 </article>
             </section>
         </main>
-        <footer role="footer">
-            <h2 class="contact">Contact</h2>
+        <footer role="footer" id="contact">
+            <span><h2 class="contact">Contact</h2></span>
+            <span>
+                <a href="https://www.linkedin.com/in/nicholas-gunter-524abb188/" target="_blank"><img 
+                src="http://www.sclance.com/pngs/linkedin-logo-png-transparent-background/linkedin_logo_png_transparent_background_801743.jpg" 
+                class="footer-img"></a>
+            </span>
+            <span><a href="https://github.com/Nickyg56" target="_blank"><img 
+                src="https://www.stickpng.com/assets/images/5847f98fcef1014c0b5e48c0.png" 
+                class="footer-img"></a>
+            </span>
+            <span><a href = "mailto: ygnick@live.com" class="email-link">Email</a></span>
         </footer>
         
         

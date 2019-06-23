@@ -11,7 +11,7 @@ body {
 
 @media only screen and (max-width: 768px){
 main {
-    height: 1600px;
+    height: 1850px;
 }
 
 nav {
@@ -28,10 +28,8 @@ nav {
     background-color: rgb(172, 172, 172);
 }
 
-.nav-span {
-    
+.nav-span {   
     font-size: 20px;     
-
 }
 
 .nav-link {
@@ -44,7 +42,7 @@ nav {
 }
 
 header {
-    padding-top: 16%;
+    padding-top: 18%;
     padding-left: 6%;
     padding-right: 6%;
     text-align: center;
@@ -88,12 +86,19 @@ section {
 }
 
 .project-pic {
-    background-image: url(https://i.imgur.com/5cTxmxP.png);
+    background-image: url(https://i.imgur.com/PQd45sw.png);
     height: 170px;
     width: 80%;
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+.project-link {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -118,16 +123,42 @@ h2 {
     padding-bottom: 4%;
 }
 
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.contact {
+    padding: 0;
+}
+
 .contact::after {
     content: "  ➣";
 }
+
+.footer-img {
+    height: 40px;
+    width: 40px;
+}
+
+.email-link {
+    text-decoration: none;
+    color: black;
+}
+
+.email-link:hover{
+    color: rgb(196, 124, 255);
+}
+
+
 
 }
 
 @media only screen and (min-width: 768px){
 
 main {
-    height: 1600px;
+    height: 1750px;
 }
 
 nav {
@@ -216,13 +247,18 @@ article {
 }
 
 .project-pic {
-    background-image: url(https://i.imgur.com/5cTxmxP.png);
-    height: 240px;
+    background-image: url(https://i.imgur.com/PQd45sw.png);
+    height: 300px;
     width: auto;
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0;
     margin-left: 20%;
+}
+
+.project-link {
+    text-decoration: none;
+    color: white;
 }
 
 .project-article {
@@ -240,7 +276,7 @@ footer {
     margin-top: 4%;
     padding-left: 4%;
     padding-right: 4%;
-    height: 60px;
+    height: 80px;
     background-color: rgb(172, 172, 172);
 }
 
@@ -250,15 +286,40 @@ h2 {
     padding-bottom: 4%;
 }
 
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.contact {
+    padding: 0;
+}
+
 .contact::after {
     content: "  ➣";
+}
+
+.footer-img {
+    height: 40px;
+    width: 40px;
+    padding-top: 4%;
+}
+
+.email-link {
+    text-decoration: none;
+    color: black;
+}
+
+.email-link:hover{
+    color: rgb(196, 124, 255);
 }
 
 }
 @media only screen and (min-width: 992px){
 
 main {
-    height: 1600px;
+    height: 2100px;
 }
    
 nav {
@@ -344,12 +405,18 @@ article {
 }
 
 .project-pic {
-    background-image: url(https://i.imgur.com/5cTxmxP.png);
-    height: 170px;
+    background-image: url(https://i.imgur.com/PQd45sw.png);
+    height: 450px;
     width: 80%;
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0;
+    margin-left: 12%;
+}
+
+.project-link {
+    text-decoration: none;
+    color: white;
 }
     
 .lavender { 
@@ -373,8 +440,32 @@ h2 {
     padding-bottom: 4%;
 }
 
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.contact {
+    padding: 0;
+}
+
 .contact::after {
     content: "  ➣";
+}
+
+.footer-img {
+    height: 40px;
+    width: 40px;
+}
+
+.email-link {
+    text-decoration: none;
+    color: black;
+}
+
+.email-link:hover{
+    color: rgb(196, 124, 255);
 }
 
 }
